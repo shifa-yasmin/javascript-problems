@@ -178,5 +178,10 @@
 
 
 
-let a=[11,22,33,44,23];
-console.log(a.reduce((max,x)=>Math.max(max,x)))
+// let a=[11,22,33,44,23];
+// console.log(a.reduce((max,x)=>Math.max(max,x)))\
+
+
+const num=(a,b)=>
+  a*b
+console.log(num(11,33))
