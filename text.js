@@ -159,5 +159,24 @@
 // console.log(text.match("World"));
 
 
-let a=[1,2,3,4,4,6];
-console.log(a.map((n)=>n*2))
+// let a=[1,2,3,4,4,6];
+// console.log(a.map((n)=>n*2))
+
+
+// let name=["shifa yasmin"];
+// console.log((name.map((n)=>n.length)))
+
+
+
+// let a=[1,2,3,4,5,6,6];
+// console.log(a.filter((n)=>n%2===0))
+
+
+
+// let a=["shifa","safa","shahma"];
+// console.log(a.filter((n)=>n.length>4))
+
+
+
+let a=[11,22,33,44,23];
+console.log(a.reduce((max,x)=>Math.max(max,x)))
